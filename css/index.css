@@ -34,6 +34,7 @@ google buttons*/
     padding: 10px 20px;
     border: 2px solid white;
     transition-duration: 0.4s; 
+    outline: none;
 }
 
 /* on button hover give buttons black outline */
@@ -111,6 +112,7 @@ google search bar*/
     display: block;
     margin-left: auto;
     margin-right: auto;
+    outline: none;
     border-radius: 25px;
     padding: 15px; 
     border: 2px solid darkgray;
