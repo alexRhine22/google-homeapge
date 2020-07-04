@@ -1,11 +1,22 @@
-/****************************************************************************
-global*/
+:root {
+  --black: #000;
+  --white: #fff;
+}
+
+/**
+*
+* Globals
+*
+*/
 body {
   margin: 0;
 }
 
-/****************************************************************************
-google logo image*/
+/**
+*
+* Google logo
+*
+*/
 img {
   display: block;
   margin-bottom: 40px;
@@ -14,8 +25,11 @@ img {
   margin-top: 180px;
 }
 
-/****************************************************************************
-google buttons*/
+/**
+*
+* google buttons
+*
+*/
 .wrapper {
   float: left;
   text-align: center;
@@ -25,7 +39,7 @@ google buttons*/
 /* style buttons */
 .button {
   border-radius: 8px; /* rounds buttons */
-  border: 2px solid white;
+  border: 2px solid var(--white);
   border: none;
   cursor: pointer;
   display: inline-block;
@@ -51,7 +65,7 @@ google top nav*/
 
 /* top nav links align left */
 .top-nav a.left {
-  color: black;
+  color: var(--black);
   float: left;
   padding: 20px 20px;
   text-align: center;
@@ -60,7 +74,7 @@ google top nav*/
 
 /* top nav links align right */
 .top-nav a.right {
-  color: black;
+  color: var(--black);
   float: right;
   padding: 20px 20px;
   text-align: center;
@@ -85,7 +99,7 @@ google bottom nav*/
 
 /* bottom nav links align left */
 .footer-nav a.left {
-  color: black;
+  color: var(--black);
   float: left;
   padding: 14px 16px;
   text-align: center;
@@ -94,7 +108,7 @@ google bottom nav*/
 
 /* bottom nav links align right */
 .footer-nav a.right {
-  color: black;
+  color: var(--black);
   float: right;
   padding: 14px 16px;
   text-align: center;
